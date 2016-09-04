@@ -1,0 +1,13 @@
+[package]
+name = "drm-rs-examples"
+version = "0.0.1"
+authors = ["Wojciech Kluczka <wojciech.kluczka@gmail.com>"]
+license = "MIT"
+
+[dependencies]
+nix = "0.6.0"
+drm-rs = { path = "../libdrm-rs" }
+
+[[bin]]
+name = "info"
+path = "src/info.rs"
