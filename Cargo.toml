@@ -1,13 +1,13 @@
 [package]
-name = "drm-rs-examples"
+name = "rust-kms-examples"
 version = "0.0.1"
 authors = ["Wojciech Kluczka <wojciech.kluczka@gmail.com>"]
 license = "MIT"
 
 [dependencies]
 nix = "0.6.0"
-drm-rs = { path = "../libdrm-rs" }
+drm-rs = "0.1.1"
 
 [[bin]]
-name = "info"
-path = "src/info.rs"
+name = "drm_info"
+path = "src/drm_info.rs"
